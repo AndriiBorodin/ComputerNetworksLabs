@@ -1,0 +1,150 @@
+No.     Time           Source                Destination           Protocol Length Info
+     50 4.483746       192.168.1.108         128.119.245.12        HTTP     471    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1 
+
+Frame 50: 471 bytes on wire (3768 bits), 471 bytes captured (3768 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+    Destination: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+        Address: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+        Address: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.108, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 1440, Dst Port: 80, Seq: 1, Ack: 1, Len: 417
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n
+    Accept-Language: ru-RU\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Host: gaia.cs.umass.edu\r\n
+    DNT: 1\r\n
+    Connection: Keep-Alive\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    [HTTP request 1/1]
+    [Response in frame: 64]
+
+0000  60 38 e0 c9 a4 30 60 57 18 4f 90 fc 08 00 45 00   `8...0`W.O....E.
+0010  01 c9 ca d3 40 00 80 06 f6 c2 c0 a8 01 6c 80 77   ....@........l.w
+0020  f5 0c 05 a0 00 50 58 87 c7 3e 8a 32 1e f1 50 18   .....PX..>.2..P.
+0030  04 00 0e 3c 00 00 47 45 54 20 2f 77 69 72 65 73   ...<..GET /wires
+0040  68 61 72 6b 2d 6c 61 62 73 2f 48 54 54 50 2d 77   hark-labs/HTTP-w
+0050  69 72 65 73 68 61 72 6b 2d 66 69 6c 65 31 2e 68   ireshark-file1.h
+0060  74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 41 63   tml HTTP/1.1..Ac
+0070  63 65 70 74 3a 20 74 65 78 74 2f 68 74 6d 6c 2c   cept: text/html,
+0080  61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 68 74 6d   application/xhtm
+0090  6c 2b 78 6d 6c 2c 61 70 70 6c 69 63 61 74 69 6f   l+xml,applicatio
+00a0  6e 2f 78 6d 6c 3b 71 3d 30 2e 39 2c 2a 2f 2a 3b   n/xml;q=0.9,*/*;
+00b0  71 3d 30 2e 38 0d 0a 41 63 63 65 70 74 2d 4c 61   q=0.8..Accept-La
+00c0  6e 67 75 61 67 65 3a 20 72 75 2d 52 55 0d 0a 55   nguage: ru-RU..U
+00d0  70 67 72 61 64 65 2d 49 6e 73 65 63 75 72 65 2d   pgrade-Insecure-
+00e0  52 65 71 75 65 73 74 73 3a 20 31 0d 0a 55 73 65   Requests: 1..Use
+00f0  72 2d 41 67 65 6e 74 3a 20 4d 6f 7a 69 6c 6c 61   r-Agent: Mozilla
+0100  2f 35 2e 30 20 28 57 69 6e 64 6f 77 73 20 4e 54   /5.0 (Windows NT
+0110  20 31 30 2e 30 3b 20 57 69 6e 36 34 3b 20 78 36    10.0; Win64; x6
+0120  34 29 20 41 70 70 6c 65 57 65 62 4b 69 74 2f 35   4) AppleWebKit/5
+0130  33 37 2e 33 36 20 28 4b 48 54 4d 4c 2c 20 6c 69   37.36 (KHTML, li
+0140  6b 65 20 47 65 63 6b 6f 29 20 43 68 72 6f 6d 65   ke Gecko) Chrome
+0150  2f 37 30 2e 30 2e 33 35 33 38 2e 31 30 32 20 53   /70.0.3538.102 S
+0160  61 66 61 72 69 2f 35 33 37 2e 33 36 20 45 64 67   afari/537.36 Edg
+0170  65 2f 31 38 2e 31 38 33 36 32 0d 0a 41 63 63 65   e/18.18362..Acce
+0180  70 74 2d 45 6e 63 6f 64 69 6e 67 3a 20 67 7a 69   pt-Encoding: gzi
+0190  70 2c 20 64 65 66 6c 61 74 65 0d 0a 48 6f 73 74   p, deflate..Host
+01a0  3a 20 67 61 69 61 2e 63 73 2e 75 6d 61 73 73 2e   : gaia.cs.umass.
+01b0  65 64 75 0d 0a 44 4e 54 3a 20 31 0d 0a 43 6f 6e   edu..DNT: 1..Con
+01c0  6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c   nection: Keep-Al
+01d0  69 76 65 0d 0a 0d 0a                              ive....
+No.     Time           Source                Destination           Protocol Length Info
+     64 4.621219       128.119.245.12        192.168.1.108         HTTP     540    HTTP/1.1 200 OK  (text/html)
+
+Frame 64: 540 bytes on wire (4320 bits), 540 bytes captured (4320 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+    Destination: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+        Address: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+        Address: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.1.108
+Transmission Control Protocol, Src Port: 80, Dst Port: 1440, Seq: 1, Ack: 418, Len: 486
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Tue, 28 Apr 2020 06:55:07 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Tue, 28 Apr 2020 05:59:03 GMT\r\n
+    ETag: "80-5a4538757d2f2"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 128\r\n
+        [Content length: 128]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.137473000 seconds]
+    [Request in frame: 50]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    File Data: 128 bytes
+Line-based text data: text/html (4 lines)
+    <html>\n
+    Congratulations.  You've downloaded the file \n
+    http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html!\n
+    </html>\n
+
+0000  60 57 18 4f 90 fc 60 38 e0 c9 a4 30 08 00 45 00   `W.O..`8...0..E.
+0010  02 0e 65 6b 40 00 31 06 aa e6 80 77 f5 0c c0 a8   ..ek@.1....w....
+0020  01 6c 00 50 05 a0 8a 32 1e f1 58 87 c8 df 50 18   .l.P...2..X...P.
+0030  00 ed d9 5d 00 00 48 54 54 50 2f 31 2e 31 20 32   ...]..HTTP/1.1 2
+0040  30 30 20 4f 4b 0d 0a 44 61 74 65 3a 20 54 75 65   00 OK..Date: Tue
+0050  2c 20 32 38 20 41 70 72 20 32 30 32 30 20 30 36   , 28 Apr 2020 06
+0060  3a 35 35 3a 30 37 20 47 4d 54 0d 0a 53 65 72 76   :55:07 GMT..Serv
+0070  65 72 3a 20 41 70 61 63 68 65 2f 32 2e 34 2e 36   er: Apache/2.4.6
+0080  20 28 43 65 6e 74 4f 53 29 20 4f 70 65 6e 53 53    (CentOS) OpenSS
+0090  4c 2f 31 2e 30 2e 32 6b 2d 66 69 70 73 20 50 48   L/1.0.2k-fips PH
+00a0  50 2f 35 2e 34 2e 31 36 20 6d 6f 64 5f 70 65 72   P/5.4.16 mod_per
+00b0  6c 2f 32 2e 30 2e 31 31 20 50 65 72 6c 2f 76 35   l/2.0.11 Perl/v5
+00c0  2e 31 36 2e 33 0d 0a 4c 61 73 74 2d 4d 6f 64 69   .16.3..Last-Modi
+00d0  66 69 65 64 3a 20 54 75 65 2c 20 32 38 20 41 70   fied: Tue, 28 Ap
+00e0  72 20 32 30 32 30 20 30 35 3a 35 39 3a 30 33 20   r 2020 05:59:03 
+00f0  47 4d 54 0d 0a 45 54 61 67 3a 20 22 38 30 2d 35   GMT..ETag: "80-5
+0100  61 34 35 33 38 37 35 37 64 32 66 32 22 0d 0a 41   a4538757d2f2"..A
+0110  63 63 65 70 74 2d 52 61 6e 67 65 73 3a 20 62 79   ccept-Ranges: by
+0120  74 65 73 0d 0a 43 6f 6e 74 65 6e 74 2d 4c 65 6e   tes..Content-Len
+0130  67 74 68 3a 20 31 32 38 0d 0a 4b 65 65 70 2d 41   gth: 128..Keep-A
+0140  6c 69 76 65 3a 20 74 69 6d 65 6f 75 74 3d 35 2c   live: timeout=5,
+0150  20 6d 61 78 3d 31 30 30 0d 0a 43 6f 6e 6e 65 63    max=100..Connec
+0160  74 69 6f 6e 3a 20 4b 65 65 70 2d 41 6c 69 76 65   tion: Keep-Alive
+0170  0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20   ..Content-Type: 
+0180  74 65 78 74 2f 68 74 6d 6c 3b 20 63 68 61 72 73   text/html; chars
+0190  65 74 3d 55 54 46 2d 38 0d 0a 0d 0a 3c 68 74 6d   et=UTF-8....<htm
+01a0  6c 3e 0a 43 6f 6e 67 72 61 74 75 6c 61 74 69 6f   l>.Congratulatio
+01b0  6e 73 2e 20 20 59 6f 75 27 76 65 20 64 6f 77 6e   ns.  You've down
+01c0  6c 6f 61 64 65 64 20 74 68 65 20 66 69 6c 65 20   loaded the file 
+01d0  0a 68 74 74 70 3a 2f 2f 67 61 69 61 2e 63 73 2e   .http://gaia.cs.
+01e0  75 6d 61 73 73 2e 65 64 75 2f 77 69 72 65 73 68   umass.edu/wiresh
+01f0  61 72 6b 2d 6c 61 62 73 2f 48 54 54 50 2d 77 69   ark-labs/HTTP-wi
+0200  72 65 73 68 61 72 6b 2d 66 69 6c 65 31 2e 68 74   reshark-file1.ht
+0210  6d 6c 21 0a 3c 2f 68 74 6d 6c 3e 0a               ml!.</html>.

@@ -1,0 +1,1219 @@
+No.     Time           Source                Destination           Protocol Length Info
+    338 1.767754       192.168.1.108         194.44.29.243         ICMP     562    Echo (ping) request  id=0x0001, seq=157/40192, ttl=1 (no response found!)
+
+Frame 338: 562 bytes on wire (4496 bits), 562 bytes captured (4496 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:51.678543000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353111.678543000 seconds
+    [Time delta from previous captured frame: 0.000001000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 1.767754000 seconds]
+    Frame Number: 338
+    Frame Length: 562 bytes (4496 bits)
+    Capture Length: 562 bytes (4496 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 548
+    Identification: 0x2421 (9249)
+    Flags: 0x00b9
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 1480
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            ["Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xf0cb [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.108
+    Destination: 194.44.29.243
+    [2 IPv4 Fragments (2008 bytes): #337(1480), #338(528)]
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x7ada [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 157 (0x009d)
+    Sequence number (LE): 40192 (0x9d00)
+    [No response seen]
+        [Expert Info (Warning/Sequence): No response seen to ICMP request]
+            [No response seen to ICMP request]
+            [Severity level: Warning]
+            [Group: Sequence]
+    Data (2000 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0210  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0220  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0230  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0240  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0250  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0260  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0270  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0280  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0290  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+02a0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+02b0  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+02c0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+02d0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+02e0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+02f0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0300  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0310  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0320  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0330  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0340  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0350  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0360  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0370  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0380  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0390  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+03b0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+03c0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+03d0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+03e0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+03f0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0400  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0410  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0420  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0430  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0440  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0450  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0460  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0470  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0480  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0490  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+04a0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+04b0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+04c0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+04d0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+04e0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+04f0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0500  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0510  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0520  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0530  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0540  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0550  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0560  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0570  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0580  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0590  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+05a0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+05b0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+05c0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+05d0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+05e0  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+05f0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0600  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0610  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0620  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0630  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0640  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0650  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0660  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0670  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0680  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0690  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+06a0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+06b0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+06c0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+06d0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+06e0  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+06f0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0700  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0710  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0720  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0730  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0740  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0750  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0760  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0770  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0780  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0790  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+07a0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+07b0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+07c0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+        Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+        [Length: 2000]
+
+No.     Time           Source                Destination           Protocol Length Info
+    339 1.768811       192.168.1.1           192.168.1.108         ICMP     590    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 339: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:51.679600000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353111.679600000 seconds
+    [Time delta from previous captured frame: 0.001057000 seconds]
+    [Time delta from previous displayed frame: 0.001057000 seconds]
+    [Time since reference or first frame: 1.768811000 seconds]
+    Frame Number: 339
+    Frame Length: 590 bytes (4720 bits)
+    Capture Length: 590 bytes (4720 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:ip:icmp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.108
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 576
+    Identification: 0xd8bb (55483)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1b84 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.108
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x7685 [correct]
+    [Checksum Status: Good]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+        0100 .... = Version: 4
+        .... 0101 = Header Length: 20 bytes (5)
+        Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+            0000 00.. = Differentiated Services Codepoint: Default (0)
+            .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+        Total Length: 2028
+        Identification: 0x2421 (9249)
+        Flags: 0x0000
+            0... .... .... .... = Reserved bit: Not set
+            .0.. .... .... .... = Don't fragment: Not set
+            ..0. .... .... .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                ["Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: ICMP (1)
+        Header checksum: 0xebbc [validation disabled]
+        [Header checksum status: Unverified]
+        Source: 192.168.1.108
+        Destination: 194.44.29.243
+    Internet Control Message Protocol
+        Type: 8 (Echo (ping) request)
+        Code: 0
+        Checksum: 0x7ada [unverified] [in ICMP error packet]
+        [Checksum Status: Unverified]
+        Identifier (BE): 1 (0x0001)
+        Identifier (LE): 256 (0x0100)
+        Sequence number (BE): 157 (0x009d)
+        Sequence number (LE): 40192 (0x9d00)
+        Data (520 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e                           ghijklmn
+            Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+            [Length: 520]
+
+No.     Time           Source                Destination           Protocol Length Info
+    345 2.775761       192.168.1.108         194.44.29.243         ICMP     562    Echo (ping) request  id=0x0001, seq=158/40448, ttl=1 (no response found!)
+
+Frame 345: 562 bytes on wire (4496 bits), 562 bytes captured (4496 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:52.686550000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353112.686550000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 1.006950000 seconds]
+    [Time since reference or first frame: 2.775761000 seconds]
+    Frame Number: 345
+    Frame Length: 562 bytes (4496 bits)
+    Capture Length: 562 bytes (4496 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 548
+    Identification: 0x2422 (9250)
+    Flags: 0x00b9
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 1480
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            ["Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xf0ca [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.108
+    Destination: 194.44.29.243
+    [2 IPv4 Fragments (2008 bytes): #344(1480), #345(528)]
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x7ad9 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 158 (0x009e)
+    Sequence number (LE): 40448 (0x9e00)
+    [No response seen]
+        [Expert Info (Warning/Sequence): No response seen to ICMP request]
+            [No response seen to ICMP request]
+            [Severity level: Warning]
+            [Group: Sequence]
+    Data (2000 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0210  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0220  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0230  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0240  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0250  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0260  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0270  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0280  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0290  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+02a0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+02b0  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+02c0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+02d0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+02e0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+02f0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0300  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0310  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0320  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0330  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0340  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0350  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0360  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0370  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0380  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0390  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+03b0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+03c0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+03d0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+03e0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+03f0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0400  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0410  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0420  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0430  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0440  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0450  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0460  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0470  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0480  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0490  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+04a0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+04b0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+04c0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+04d0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+04e0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+04f0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0500  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0510  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0520  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0530  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0540  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0550  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0560  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0570  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0580  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0590  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+05a0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+05b0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+05c0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+05d0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+05e0  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+05f0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0600  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0610  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0620  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0630  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0640  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0650  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0660  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0670  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0680  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0690  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+06a0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+06b0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+06c0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+06d0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+06e0  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+06f0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0700  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0710  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0720  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0730  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0740  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0750  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0760  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0770  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0780  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0790  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+07a0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+07b0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+07c0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+        Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+        [Length: 2000]
+
+No.     Time           Source                Destination           Protocol Length Info
+    346 2.777674       192.168.1.1           192.168.1.108         ICMP     590    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 346: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:52.688463000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353112.688463000 seconds
+    [Time delta from previous captured frame: 0.001913000 seconds]
+    [Time delta from previous displayed frame: 0.001913000 seconds]
+    [Time since reference or first frame: 2.777674000 seconds]
+    Frame Number: 346
+    Frame Length: 590 bytes (4720 bits)
+    Capture Length: 590 bytes (4720 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:ip:icmp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.108
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 576
+    Identification: 0xd901 (55553)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1b3e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.108
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x7685 [correct]
+    [Checksum Status: Good]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+        0100 .... = Version: 4
+        .... 0101 = Header Length: 20 bytes (5)
+        Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+            0000 00.. = Differentiated Services Codepoint: Default (0)
+            .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+        Total Length: 2028
+        Identification: 0x2422 (9250)
+        Flags: 0x0000
+            0... .... .... .... = Reserved bit: Not set
+            .0.. .... .... .... = Don't fragment: Not set
+            ..0. .... .... .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                ["Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: ICMP (1)
+        Header checksum: 0xebbb [validation disabled]
+        [Header checksum status: Unverified]
+        Source: 192.168.1.108
+        Destination: 194.44.29.243
+    Internet Control Message Protocol
+        Type: 8 (Echo (ping) request)
+        Code: 0
+        Checksum: 0x7ad9 [unverified] [in ICMP error packet]
+        [Checksum Status: Unverified]
+        Identifier (BE): 1 (0x0001)
+        Identifier (LE): 256 (0x0100)
+        Sequence number (BE): 158 (0x009e)
+        Sequence number (LE): 40448 (0x9e00)
+        Data (520 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e                           ghijklmn
+            Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+            [Length: 520]
+
+No.     Time           Source                Destination           Protocol Length Info
+    352 3.784269       192.168.1.108         194.44.29.243         ICMP     562    Echo (ping) request  id=0x0001, seq=159/40704, ttl=1 (no response found!)
+
+Frame 352: 562 bytes on wire (4496 bits), 562 bytes captured (4496 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:53.695058000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353113.695058000 seconds
+    [Time delta from previous captured frame: 0.000001000 seconds]
+    [Time delta from previous displayed frame: 1.006595000 seconds]
+    [Time since reference or first frame: 3.784269000 seconds]
+    Frame Number: 352
+    Frame Length: 562 bytes (4496 bits)
+    Capture Length: 562 bytes (4496 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 548
+    Identification: 0x2423 (9251)
+    Flags: 0x00b9
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 1480
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            ["Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xf0c9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.108
+    Destination: 194.44.29.243
+    [2 IPv4 Fragments (2008 bytes): #351(1480), #352(528)]
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x7ad8 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 159 (0x009f)
+    Sequence number (LE): 40704 (0x9f00)
+    [No response seen]
+        [Expert Info (Warning/Sequence): No response seen to ICMP request]
+            [No response seen to ICMP request]
+            [Severity level: Warning]
+            [Group: Sequence]
+    Data (2000 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0210  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0220  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0230  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0240  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0250  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0260  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0270  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0280  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0290  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+02a0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+02b0  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+02c0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+02d0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+02e0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+02f0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0300  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0310  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0320  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0330  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0340  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0350  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0360  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0370  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0380  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0390  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+03b0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+03c0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+03d0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+03e0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+03f0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0400  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0410  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0420  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0430  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0440  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0450  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0460  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0470  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0480  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0490  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+04a0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+04b0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+04c0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+04d0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+04e0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+04f0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0500  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0510  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0520  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0530  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0540  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0550  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0560  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0570  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0580  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0590  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+05a0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+05b0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+05c0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+05d0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+05e0  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+05f0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0600  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0610  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0620  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0630  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0640  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0650  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0660  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0670  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0680  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0690  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+06a0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+06b0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+06c0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+06d0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+06e0  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+06f0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0700  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0710  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0720  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0730  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0740  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0750  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0760  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0770  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0780  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0790  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+07a0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+07b0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+07c0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+        Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+        [Length: 2000]
+
+No.     Time           Source                Destination           Protocol Length Info
+    353 3.788494       192.168.1.1           192.168.1.108         ICMP     590    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 353: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:53.699283000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353113.699283000 seconds
+    [Time delta from previous captured frame: 0.004225000 seconds]
+    [Time delta from previous displayed frame: 0.004225000 seconds]
+    [Time since reference or first frame: 3.788494000 seconds]
+    Frame Number: 353
+    Frame Length: 590 bytes (4720 bits)
+    Capture Length: 590 bytes (4720 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:ip:icmp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.108
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 576
+    Identification: 0xd940 (55616)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1aff [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.108
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x7685 [correct]
+    [Checksum Status: Good]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+        0100 .... = Version: 4
+        .... 0101 = Header Length: 20 bytes (5)
+        Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+            0000 00.. = Differentiated Services Codepoint: Default (0)
+            .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+        Total Length: 2028
+        Identification: 0x2423 (9251)
+        Flags: 0x0000
+            0... .... .... .... = Reserved bit: Not set
+            .0.. .... .... .... = Don't fragment: Not set
+            ..0. .... .... .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                ["Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: ICMP (1)
+        Header checksum: 0xebba [validation disabled]
+        [Header checksum status: Unverified]
+        Source: 192.168.1.108
+        Destination: 194.44.29.243
+    Internet Control Message Protocol
+        Type: 8 (Echo (ping) request)
+        Code: 0
+        Checksum: 0x7ad8 [unverified] [in ICMP error packet]
+        [Checksum Status: Unverified]
+        Identifier (BE): 1 (0x0001)
+        Identifier (LE): 256 (0x0100)
+        Sequence number (BE): 159 (0x009f)
+        Sequence number (LE): 40704 (0x9f00)
+        Data (520 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e                           ghijklmn
+            Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+            [Length: 520]
+
+No.     Time           Source                Destination           Protocol Length Info
+    363 4.792300       192.168.1.108         194.44.29.243         ICMP     562    Echo (ping) request  id=0x0001, seq=160/40960, ttl=1 (no response found!)
+
+Frame 363: 562 bytes on wire (4496 bits), 562 bytes captured (4496 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:54.703089000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353114.703089000 seconds
+    [Time delta from previous captured frame: 0.000001000 seconds]
+    [Time delta from previous displayed frame: 1.003806000 seconds]
+    [Time since reference or first frame: 4.792300000 seconds]
+    Frame Number: 363
+    Frame Length: 562 bytes (4496 bits)
+    Capture Length: 562 bytes (4496 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 548
+    Identification: 0x2424 (9252)
+    Flags: 0x00b9
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 1480
+    Time to live: 1
+        [Expert Info (Note/Sequence): "Time To Live" only 1]
+            ["Time To Live" only 1]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: ICMP (1)
+    Header checksum: 0xf0c8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.108
+    Destination: 194.44.29.243
+    [2 IPv4 Fragments (2008 bytes): #362(1480), #363(528)]
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0
+    Checksum: 0x7ad7 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 160 (0x00a0)
+    Sequence number (LE): 40960 (0xa000)
+    [No response seen]
+        [Expert Info (Warning/Sequence): No response seen to ICMP request]
+            [No response seen to ICMP request]
+            [Severity level: Warning]
+            [Group: Sequence]
+    Data (2000 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0210  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0220  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0230  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0240  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0250  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0260  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0270  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0280  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0290  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+02a0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+02b0  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+02c0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+02d0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+02e0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+02f0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0300  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0310  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0320  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0330  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0340  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0350  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0360  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0370  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0380  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0390  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+03b0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+03c0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+03d0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+03e0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+03f0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0400  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0410  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0420  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0430  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0440  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0450  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0460  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0470  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0480  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0490  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+04a0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+04b0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+04c0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+04d0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+04e0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+04f0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0500  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0510  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0520  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0530  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+0540  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0550  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0560  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0570  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0580  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0590  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+05a0  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+05b0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+05c0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+05d0  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+05e0  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+05f0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0600  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0610  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0620  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0630  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0640  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0650  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0660  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+0670  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+0680  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+0690  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+06a0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+06b0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+06c0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+06d0  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+06e0  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+06f0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0700  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0710  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0720  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0730  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0740  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0750  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0760  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0770  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0780  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0790  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+07a0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+07b0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+07c0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+        Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+        [Length: 2000]
+
+No.     Time           Source                Destination           Protocol Length Info
+    364 4.797567       192.168.1.1           192.168.1.108         ICMP     590    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 364: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+    Interface id: 0 (\Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  1, 2020 20:11:54.708356000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1588353114.708356000 seconds
+    [Time delta from previous captured frame: 0.005267000 seconds]
+    [Time delta from previous displayed frame: 0.005267000 seconds]
+    [Time since reference or first frame: 4.797567000 seconds]
+    Frame Number: 364
+    Frame Length: 590 bytes (4720 bits)
+    Capture Length: 590 bytes (4720 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:ip:icmp:data]
+    [Coloring Rule Name: ICMP errors]
+    [Coloring Rule String: icmp.type eq 3 || icmp.type eq 4 || icmp.type eq 5 || icmp.type eq 11 || icmpv6.type eq 1 || icmpv6.type eq 2 || icmpv6.type eq 3 || icmpv6.type eq 4]
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.108
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 576
+    Identification: 0xd98f (55695)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1ab0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.108
+Internet Control Message Protocol
+    Type: 11 (Time-to-live exceeded)
+    Code: 0 (Time to live exceeded in transit)
+    Checksum: 0x7685 [correct]
+    [Checksum Status: Good]
+    Unused: 00000000
+    Internet Protocol Version 4, Src: 192.168.1.108, Dst: 194.44.29.243
+        0100 .... = Version: 4
+        .... 0101 = Header Length: 20 bytes (5)
+        Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+            0000 00.. = Differentiated Services Codepoint: Default (0)
+            .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+        Total Length: 2028
+        Identification: 0x2424 (9252)
+        Flags: 0x0000
+            0... .... .... .... = Reserved bit: Not set
+            .0.. .... .... .... = Don't fragment: Not set
+            ..0. .... .... .... = More fragments: Not set
+        Fragment offset: 0
+        Time to live: 1
+            [Expert Info (Note/Sequence): "Time To Live" only 1]
+                ["Time To Live" only 1]
+                [Severity level: Note]
+                [Group: Sequence]
+        Protocol: ICMP (1)
+        Header checksum: 0xebb9 [validation disabled]
+        [Header checksum status: Unverified]
+        Source: 192.168.1.108
+        Destination: 194.44.29.243
+    Internet Control Message Protocol
+        Type: 8 (Echo (ping) request)
+        Code: 0
+        Checksum: 0x7ad7 [unverified] [in ICMP error packet]
+        [Checksum Status: Unverified]
+        Identifier (BE): 1 (0x0001)
+        Identifier (LE): 256 (0x0100)
+        Sequence number (BE): 160 (0x00a0)
+        Sequence number (LE): 40960 (0xa000)
+        Data (520 bytes)
+
+0000  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0010  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0020  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+0030  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0040  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+0050  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+0080  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0090  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+00a0  77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   wabcdefghijklmno
+00b0  70 71 72 73 74 75 76 77 61 62 63 64 65 66 67 68   pqrstuvwabcdefgh
+00c0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61   ijklmnopqrstuvwa
+00d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+00e0  72 73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a   rstuvwabcdefghij
+00f0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63   klmnopqrstuvwabc
+0100  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0110  74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c   tuvwabcdefghijkl
+0120  6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65   mnopqrstuvwabcde
+0130  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0140  76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   vwabcdefghijklmn
+0150  6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66 67   opqrstuvwabcdefg
+0160  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 61 62 63 64 65 66 67 68 69   qrstuvwabcdefghi
+0190  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62   jklmnopqrstuvwab
+01a0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+01b0  73 74 75 76 77 61 62 63 64 65 66 67 68 69 6a 6b   stuvwabcdefghijk
+01c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 61 62 63 64   lmnopqrstuvwabcd
+01d0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+01e0  75 76 77 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   uvwabcdefghijklm
+01f0  6e 6f 70 71 72 73 74 75 76 77 61 62 63 64 65 66   nopqrstuvwabcdef
+0200  67 68 69 6a 6b 6c 6d 6e                           ghijklmn
+            Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+            [Length: 520]

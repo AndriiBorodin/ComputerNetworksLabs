@@ -1,0 +1,153 @@
+No.     Time           Source                Destination           Protocol Length Info
+     27 2.296068       fd21:e55c:63c0:0:9cca:1103:ae42:3083 fd21:e55c:63c0::1     DNS      87     Standard query 0x0003 NS mit.edu
+
+Frame 27: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 6, Src: fd21:e55c:63c0:0:9cca:1103:ae42:3083, Dst: fd21:e55c:63c0::1
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0000 0000 0000 0000 0000 = Flow Label: 0x00000
+    Payload Length: 33
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+    Destination: fd21:e55c:63c0::1
+User Datagram Protocol, Src Port: 56750, Dst Port: 53
+    Source Port: 56750
+    Destination Port: 53
+    Length: 33
+    Checksum: 0x2ff6 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 6]
+    [Timestamps]
+Domain Name System (query)
+    Transaction ID: 0x0003
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mit.edu: type NS, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+    [Response In: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 2.300235       fd21:e55c:63c0::1     fd21:e55c:63c0:0:9cca:1103:ae42:3083 DNS      254    Standard query response 0x0003 NS mit.edu NS eur5.akam.net NS use5.akam.net NS usw2.akam.net NS asia1.akam.net NS ns1-173.akam.net NS ns1-37.akam.net NS use2.akam.net NS asia2.akam.net
+
+Frame 28: 254 bytes on wire (2032 bits), 254 bytes captured (2032 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 6, Src: fd21:e55c:63c0::1, Dst: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 1010 0100 0010 1000 0001 = Flow Label: 0xa4281
+    Payload Length: 200
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0::1
+    Destination: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+User Datagram Protocol, Src Port: 53, Dst Port: 56750
+    Source Port: 53
+    Destination Port: 56750
+    Length: 200
+    Checksum: 0x8558 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 6]
+    [Timestamps]
+Domain Name System (response)
+    Transaction ID: 0x0003
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 8
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mit.edu: type NS, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+    Answers
+        mit.edu: type NS, class IN, ns eur5.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 15
+            Name Server: eur5.akam.net
+        mit.edu: type NS, class IN, ns use5.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 7
+            Name Server: use5.akam.net
+        mit.edu: type NS, class IN, ns usw2.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 7
+            Name Server: usw2.akam.net
+        mit.edu: type NS, class IN, ns asia1.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 8
+            Name Server: asia1.akam.net
+        mit.edu: type NS, class IN, ns ns1-173.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 10
+            Name Server: ns1-173.akam.net
+        mit.edu: type NS, class IN, ns ns1-37.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 9
+            Name Server: ns1-37.akam.net
+        mit.edu: type NS, class IN, ns use2.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 7
+            Name Server: use2.akam.net
+        mit.edu: type NS, class IN, ns asia2.akam.net
+            Name: mit.edu
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 8
+            Name Server: asia2.akam.net
+    [Request In: 27]
+    [Time: 0.004167000 seconds]

@@ -1,0 +1,237 @@
+No.     Time           Source                Destination           Protocol Length Info
+    309 3.101196       fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7 fd21:e55c:63c0::1     DNS      92     Standard query 0xca31 A www.ietf.org
+
+Frame 309: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 6, Src: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7, Dst: fd21:e55c:63c0::1
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0000 0000 0000 0000 0000 = Flow Label: 0x00000
+    Payload Length: 38
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7
+    Destination: fd21:e55c:63c0::1
+User Datagram Protocol, Src Port: 60340, Dst Port: 53
+    Source Port: 60340
+    Destination Port: 53
+    Length: 38
+    Checksum: 0xd005 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 11]
+    [Timestamps]
+Domain Name System (query)
+    Transaction ID: 0xca31
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type A, class IN
+            Name: www.ietf.org
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 388]
+
+No.     Time           Source                Destination           Protocol Length Info
+    310 3.101427       fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7 fd21:e55c:63c0::1     DNS      92     Standard query 0x8559 AAAA www.ietf.org
+
+Frame 310: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 6, Src: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7, Dst: fd21:e55c:63c0::1
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0000 0000 0000 0000 0000 = Flow Label: 0x00000
+    Payload Length: 38
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7
+    Destination: fd21:e55c:63c0::1
+User Datagram Protocol, Src Port: 54818, Dst Port: 53
+    Source Port: 54818
+    Destination Port: 53
+    Length: 38
+    Checksum: 0x2a55 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 12]
+    [Timestamps]
+Domain Name System (query)
+    Transaction ID: 0x8559
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type AAAA, class IN
+            Name: www.ietf.org
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    [Response In: 387]
+
+No.     Time           Source                Destination           Protocol Length Info
+    387 3.402182       fd21:e55c:63c0::1     fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7 DNS      193    Standard query response 0x8559 AAAA www.ietf.org CNAME www.ietf.org.cdn.cloudflare.net AAAA 2606:4700:10::6814:55 AAAA 2606:4700:10::6814:155
+
+Frame 387: 193 bytes on wire (1544 bits), 193 bytes captured (1544 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 6, Src: fd21:e55c:63c0::1, Dst: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0101 1001 1100 1001 1101 = Flow Label: 0x59c9d
+    Payload Length: 139
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0::1
+    Destination: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7
+User Datagram Protocol, Src Port: 53, Dst Port: 54818
+    Source Port: 53
+    Destination Port: 54818
+    Length: 139
+    Checksum: 0x5cd5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 12]
+    [Timestamps]
+Domain Name System (response)
+    Transaction ID: 0x8559
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type AAAA, class IN
+            Name: www.ietf.org
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Answers
+        www.ietf.org: type CNAME, class IN, cname www.ietf.org.cdn.cloudflare.net
+            Name: www.ietf.org
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 33
+            CNAME: www.ietf.org.cdn.cloudflare.net
+        www.ietf.org.cdn.cloudflare.net: type AAAA, class IN, addr 2606:4700:10::6814:55
+            Name: www.ietf.org.cdn.cloudflare.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 53 (53 seconds)
+            Data length: 16
+            AAAA Address: 2606:4700:10::6814:55
+        www.ietf.org.cdn.cloudflare.net: type AAAA, class IN, addr 2606:4700:10::6814:155
+            Name: www.ietf.org.cdn.cloudflare.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 53 (53 seconds)
+            Data length: 16
+            AAAA Address: 2606:4700:10::6814:155
+    [Request In: 310]
+    [Time: 0.300755000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    388 3.402182       fd21:e55c:63c0::1     fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7 DNS      169    Standard query response 0xca31 A www.ietf.org CNAME www.ietf.org.cdn.cloudflare.net A 104.20.0.85 A 104.20.1.85
+
+Frame 388: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 6, Src: fd21:e55c:63c0::1, Dst: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 1110 1001 1010 1011 1101 = Flow Label: 0xe9abd
+    Payload Length: 115
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0::1
+    Destination: fd21:e55c:63c0:0:d0fd:f48c:343a:d0f7
+User Datagram Protocol, Src Port: 53, Dst Port: 60340
+    Source Port: 53
+    Destination Port: 60340
+    Length: 115
+    Checksum: 0x8f8e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 11]
+    [Timestamps]
+Domain Name System (response)
+    Transaction ID: 0xca31
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type A, class IN
+            Name: www.ietf.org
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.ietf.org: type CNAME, class IN, cname www.ietf.org.cdn.cloudflare.net
+            Name: www.ietf.org
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 33
+            CNAME: www.ietf.org.cdn.cloudflare.net
+        www.ietf.org.cdn.cloudflare.net: type A, class IN, addr 104.20.0.85
+            Name: www.ietf.org.cdn.cloudflare.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 4
+            Address: 104.20.0.85
+        www.ietf.org.cdn.cloudflare.net: type A, class IN, addr 104.20.1.85
+            Name: www.ietf.org.cdn.cloudflare.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 4
+            Address: 104.20.1.85
+    [Request In: 309]
+    [Time: 0.300986000 seconds]

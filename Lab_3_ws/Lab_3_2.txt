@@ -1,0 +1,244 @@
+No.     Time           Source                Destination           Protocol Length Info
+     10 2.865585       fd21:e55c:63c0:0:9cca:1103:ae42:3083 fd21:e55c:63c0::1     DNS      91     Standard query 0x0004 A www.mit.edu
+
+Frame 10: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 6, Src: fd21:e55c:63c0:0:9cca:1103:ae42:3083, Dst: fd21:e55c:63c0::1
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0000 0000 0000 0000 0000 = Flow Label: 0x00000
+    Payload Length: 37
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+    Destination: fd21:e55c:63c0::1
+User Datagram Protocol, Src Port: 51464, Dst Port: 53
+    Source Port: 51464
+    Destination Port: 53
+    Length: 37
+    Checksum: 0xcaa4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Timestamps]
+Domain Name System (query)
+    Transaction ID: 0x0004
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type A, class IN
+            Name: www.mit.edu
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 11]
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 2.884511       fd21:e55c:63c0::1     fd21:e55c:63c0:0:9cca:1103:ae42:3083 DNS      180    Standard query response 0x0004 A www.mit.edu CNAME www.mit.edu.edgekey.net CNAME e9566.dscb.akamaiedge.net A 104.96.143.80
+
+Frame 11: 180 bytes on wire (1440 bits), 180 bytes captured (1440 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 6, Src: fd21:e55c:63c0::1, Dst: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 1111 1100 0101 0110 1010 = Flow Label: 0xfc56a
+    Payload Length: 126
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0::1
+    Destination: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+User Datagram Protocol, Src Port: 53, Dst Port: 51464
+    Source Port: 53
+    Destination Port: 51464
+    Length: 126
+    Checksum: 0x3b70 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Timestamps]
+Domain Name System (response)
+    Transaction ID: 0x0004
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type A, class IN
+            Name: www.mit.edu
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+            Name: www.mit.edu
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 25
+            CNAME: www.mit.edu.edgekey.net
+        www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.dscb.akamaiedge.net
+            Name: www.mit.edu.edgekey.net
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 1 (1 second)
+            Data length: 24
+            CNAME: e9566.dscb.akamaiedge.net
+        e9566.dscb.akamaiedge.net: type A, class IN, addr 104.96.143.80
+            Name: e9566.dscb.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 20 (20 seconds)
+            Data length: 4
+            Address: 104.96.143.80
+    [Request In: 10]
+    [Time: 0.018926000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 2.902830       fd21:e55c:63c0:0:9cca:1103:ae42:3083 fd21:e55c:63c0::1     DNS      91     Standard query 0x0005 AAAA www.mit.edu
+
+Frame 12: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: IntelCor_4f:90:fc (60:57:18:4f:90:fc), Dst: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30)
+Internet Protocol Version 6, Src: fd21:e55c:63c0:0:9cca:1103:ae42:3083, Dst: fd21:e55c:63c0::1
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0000 0000 0000 0000 0000 = Flow Label: 0x00000
+    Payload Length: 37
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+    Destination: fd21:e55c:63c0::1
+User Datagram Protocol, Src Port: 51465, Dst Port: 53
+    Source Port: 51465
+    Destination Port: 53
+    Length: 37
+    Checksum: 0xafa2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 4]
+    [Timestamps]
+Domain Name System (query)
+    Transaction ID: 0x0005
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type AAAA, class IN
+            Name: www.mit.edu
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    [Response In: 13]
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.922155       fd21:e55c:63c0::1     fd21:e55c:63c0:0:9cca:1103:ae42:3083 DNS      220    Standard query response 0x0005 AAAA www.mit.edu CNAME www.mit.edu.edgekey.net CNAME e9566.dscb.akamaiedge.net AAAA 2a02:26f0:d200:19e::255e AAAA 2a02:26f0:d200:191::255e
+
+Frame 13: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits) on interface \Device\NPF_{515AB600-9DD9-44FB-9043-185B381F60A2}, id 0
+Ethernet II, Src: BelkinIn_c9:a4:30 (60:38:e0:c9:a4:30), Dst: IntelCor_4f:90:fc (60:57:18:4f:90:fc)
+Internet Protocol Version 6, Src: fd21:e55c:63c0::1, Dst: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+    0110 .... = Version: 6
+    .... 0000 0000 .... .... .... .... .... = Traffic Class: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        .... 0000 00.. .... .... .... .... .... = Differentiated Services Codepoint: Default (0)
+        .... .... ..00 .... .... .... .... .... = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    .... .... .... 0011 1000 1010 0111 1001 = Flow Label: 0x38a79
+    Payload Length: 166
+    Next Header: UDP (17)
+    Hop Limit: 64
+    Source: fd21:e55c:63c0::1
+    Destination: fd21:e55c:63c0:0:9cca:1103:ae42:3083
+User Datagram Protocol, Src Port: 53, Dst Port: 51465
+    Source Port: 53
+    Destination Port: 51465
+    Length: 166
+    Checksum: 0xc345 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 4]
+    [Timestamps]
+Domain Name System (response)
+    Transaction ID: 0x0005
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type AAAA, class IN
+            Name: www.mit.edu
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Answers
+        www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+            Name: www.mit.edu
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 25
+            CNAME: www.mit.edu.edgekey.net
+        www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.dscb.akamaiedge.net
+            Name: www.mit.edu.edgekey.net
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 1 (1 second)
+            Data length: 24
+            CNAME: e9566.dscb.akamaiedge.net
+        e9566.dscb.akamaiedge.net: type AAAA, class IN, addr 2a02:26f0:d200:19e::255e
+            Name: e9566.dscb.akamaiedge.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 20 (20 seconds)
+            Data length: 16
+            AAAA Address: 2a02:26f0:d200:19e::255e
+        e9566.dscb.akamaiedge.net: type AAAA, class IN, addr 2a02:26f0:d200:191::255e
+            Name: e9566.dscb.akamaiedge.net
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 20 (20 seconds)
+            Data length: 16
+            AAAA Address: 2a02:26f0:d200:191::255e
+    [Request In: 12]
+    [Time: 0.019325000 seconds]
